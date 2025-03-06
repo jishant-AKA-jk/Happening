@@ -6,12 +6,12 @@ const useHideTabBar = () => {
 
   useEffect(() => {
     navigation.getParent()?.setOptions({
-      tabBarStyle: { display: 'none' },
+      tabBarStyle: { height:0 , display:'none'},
     });
 
     return () => {
       navigation.getParent()?.setOptions({
-        tabBarStyle: { display: 'flex' },
+        tabBarStyle: { height:52},
       });
     };
   }, [navigation]);

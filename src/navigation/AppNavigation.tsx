@@ -33,6 +33,7 @@ export default function AppNavigation() {
           tabBarStyle: {
             backgroundColor:
               currentTheme === THEME_TYPE.Dark ? '#0d0d0d' : '#ffffff',
+              height: 54,
           },
         }}>
         <Tab.Screen

@@ -5,7 +5,7 @@ import { appSpacing, CStyles } from '../theme/CStyles';
 
 export const navigationStyles = (theme: ITheme) =>
   StyleSheet.create({
-    itemContainer: {
+    itemContainer: {  
       marginVertical: appSpacing.sm,
       flex: 0.25,
       flexDirection: 'row',

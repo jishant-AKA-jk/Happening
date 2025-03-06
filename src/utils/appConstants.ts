@@ -1,5 +1,5 @@
 export const OTP = '778899';
-export const VALID_USERS = ['jishant2006@gmail.com', '9192939495'];
+export const VALID_USERS = ['Jishant2006@gmail.com','jishant2006@gmail.com', '9192939495'];
 export const SEATS_PRICES = [
   {name: 'Platinum', price: 2000},
   {name: 'Gold', price: 1000},

@@ -68,6 +68,7 @@ const textInputStyles = (theme: ITheme) =>
       width: '100%',
       height: 52,
       backgroundColor: theme.base_primary,
+      color:theme.text_primary,
       borderWidth: 1.5,
       borderRadius: appSpacing.md,
       paddingHorizontal: appSpacing.md,
