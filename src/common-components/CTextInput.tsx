@@ -67,6 +67,7 @@ const textInputStyles = (theme: ITheme) =>
     input: {
       width: '100%',
       height: 52,
+      color: theme.text_primary,
       backgroundColor: theme.base_primary,
       color:theme.text_primary,
       borderWidth: 1.5,
